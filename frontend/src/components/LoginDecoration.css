@@ -1,0 +1,34 @@
+.square1{
+    width: 450px;
+    height: 450px;
+    background-color: aqua;
+    transform: rotate(50deg);
+    border-radius: 100px;
+    position: fixed;
+    margin-left: -170px;
+    z-index: -1;
+    bottom: 0;
+    margin-bottom: -5px;
+    animation: mymove 5s forwards;
+    background-image: linear-gradient(50deg,#01BBED, #02B5ED, #03B1ED, #03A4EA, #0795E7, #0887E4, #0A80E3, #0D77E4);
+}
+
+@keyframes mymove {
+    50% {transform: rotate(320deg);}
+  }
+
+.square2{
+    width: 450px;
+    height: 450px;
+    background-color: aqua;
+    transform: rotate(50deg);
+    border-radius: 100px;
+    position: fixed;
+    right: 0;
+    margin-right: -210px;
+    z-index: -1;
+    top: 0;
+    margin-bottom: -5px;
+    animation: mymove 5s backwards;
+    background-image: linear-gradient(50deg,#01BBED, #02B5ED, #03B1ED, #03A4EA, #0795E7, #0887E4, #0A80E3, #0D77E4);
+}
